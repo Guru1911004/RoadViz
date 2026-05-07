@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed-Enforcement Dashboard</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/visualisations.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+ <header>
+  <div class="header-container">
+    <div class="branding">
+      <img src="Logo/logo.png" alt="SafeStates Logo" class="logo">
+      <h1 class="site-title">Visualizing Speed Enforcement Patterns<br><span class="subtitle">Across Australian Jurisdictions</span></h1>
+    </div>
+    <nav class="nav-links">
+<a href="index.html" class="nav-link active">Section 1</a>
+<a href="chart2.html" class="nav-link">Section 2</a>
+      <a href="chart3.html" class="nav-link">Section 3</a>
+      <a href="aboutus.html" class="nav-link">About Us</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main>
+     <!-- Storyline Introduction-->
+<section class="intro-text">
+  <h2>Explore Age-Based Speeding Trends Across States (2023)</h2>
+ 
+  <p>
+    Ever wondered which age group racks up the most speeding fines — and why? Are younger drivers more reckless, or do older drivers spend more time behind the wheel?</p>
+    <p>Using our interactive features like <strong>colored state buttons </strong>, <strong>interactive tooltips</strong> and the dynamic <strong>live summary</strong>, you can use the dashboard to help explore speeding data across Australian states from 2023 and uncover patterns to how different age groups are penalised across states.
+  </p>
+  
+  <div class="note-highlight">
+    <div>
+      <strong>Note:</strong> Fines issued to drivers aged <span class="age-highlight">0–16</span> are extremely low across all jurisdictions — likely because most in this group are underage or learner drivers under supervision. To avoid visual distortion, this group is excluded from the chart. However, a dynamic summary below the graph updates in real time to show their total fines per state.
+    </div>
+  </div>
+
+
+</section>
+
+
+<br>
+<br>
+    <!-- Title & Filter Buttons -->
+    <h2>Fines by Age Group in 2023 <small>(select a state to view the stats)</small></h2>
+    <br>
+<div id="topStat" class="state-stat"></div>
+ 
+    <div id="filters_state" class="button-row"></div>
+    <!-- Tooltip for mouseover -->
+    <div class="tooltip" style="position: absolute; opacity: 0; pointer-events: none;"></div>
+
+    <!-- Stacked Bar Chart Container (Default) -->
+    <div id="barchart" class="responsive-svg-container"></div>
+
+
+    <!-- Summary Text -->
+    <div id="summary" class="insight-box"></div>
+
+  <!-- Queensland Notice -->
+<!-- Queensland Data Note -->
+<p class="summary-context">
+  <br>
+  <ul class="insight-list">
+  <li>
+  Interestingly, states such as the <strong>the Australian Capital Territory, Northern Territory, and Tasmania</strong> consistently recorded lower fine totals across ages compared to other regions. 
+  This may reflect their smaller populations, fewer major traffic corridors, or limited use of automated enforcement technologies.
+</p>
+</li>
+<li>
+ <p>
+    Across all jurisdictions, individuals aged <span class="age-highlight">40–64</span> consistently recorded the highest number of speeding fines in 2023, likely due to commuting, household duties, or longer-distance travel between cities and regions. Their frequent driving —
+    whether for work or personal life — possibly contributes to their greater exposure and higher infringement rates.
+  </p>
+  </li>
+  <br>
+
+
+<div class="note-box">
+  <h4><strong>What about Queensland? Why could we not display it on the chart above?</strong></h4>
+  <br>
+  <p>
+    Unlike other states, Queensland's 2023 speeding fine data was not broken down by age.
+   <br> To maintain data integrity and avoid misrepresentation, we have presented Queensland separately in the form of a summary panel.
+  <br><span class="emoji-guidance">👇 Click the box below to view Queensland's summary.</span>
+  </p>
+</div>
+
+
+
+<!-- Expandable QLD Panel -->
+<details class="summary-panel">
+  <summary><strong>View Queensland Speeding Fine Summary for 2023</strong></summary>
+ <div class="summary-panel">
+  <h3>Queensland 2023 Speeding Fine Summary</h3>
+  <div class="summary-row">
+    <div class="summary-box">
+      <p><strong>Total Fines:</strong><br>860,626</p>
+    </div>
+    <div class="summary-box">
+      <p><strong>Top Offending Age Group:</strong><br>Unknown</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <div class="summary-box">
+      <p><strong>Most Common Detection Method:</strong><br>Mobile camera (469,785 fines)</p>
+    </div>
+    <div class="summary-box">
+      <p><strong>Other Methods:</strong><br>Fixed (263,939), Police-issued (117,112), Average speed camera (9,790)</p>
+    </div>
+  </div>
+ <p class="summary-note">
+  While most states break down fines by age, Queensland’s data focuses on enforcement methods — with <strong>mobile cameras accounting for over half of all fines issued</strong>.
+</p>
+
+</div>
+<br>
+<p class="summary-explanation">
+  This suggests a strong emphasis on automated roadside monitoring across urban corridors and highways, 
+  possibly due to Queensland’s vast road network and regional sprawl. 
+</p></details>
+
+<!-- Script for animated count -->
+<script>
+  function animateNumber(id, end) {
+    const el = document.getElementById(id);
+    let start = 0;
+    const duration = 2000;
+    const stepTime = Math.abs(Math.floor(duration / end));
+
+    const timer = setInterval(() => {
+      start += Math.ceil(end / (duration / stepTime));
+      if (start >= end) {
+        start = end;
+        clearInterval(timer);
+      }
+      el.textContent = start.toLocaleString();
+    }, stepTime);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    animateNumber("qld-fines", 860626);
+  });
+</script>
+
+
+  </main>
+  <br>
+<p class="closing-note">
+  <strong>Curious how these patterns evolve year to year? Stay tuned for more visual insights as we track enforcement trends into the future.</strong>
+</p>
+
+<footer>
+  <div class="footer-container">
+   <p class="footer-text">
+  <span class="footer-line">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f4f8ff" viewBox="0 0 16 16">
+      <path d="M0 0h1v16H0V0zm3 5h1v11H3V5zm3 2h1v9H6V7zm3-4h1v13H9V3zm3 6h1v7h-1V9zm3-2h1v9h-1V7z"/>
+    </svg>
+    <strong>Data source</strong> — Dept. of Infrastructure (AU), 2023 · CL01_G05
+  </span>
+</p>
+
+</footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/shared-constants.js"></script>
+  <script type="module" src="js/resize.js"></script>
+  <script type="module" src="js/chart1.js"></script>
+  <script type="module" src="js/interactions.js"></script>
+  <script type="module" src="js/load-data.js"></script>
+</body>
+</html>

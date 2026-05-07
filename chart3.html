@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fines by Region · Speed Dashboard</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/visualisations.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="branding">
+        <img src="Logo/logo.png" alt="SafeStates Logo" class="logo" />
+        <h1 class="site-title">Visualizing Speed Enforcement Patterns<br><span class="subtitle">Across Australian Jurisdictions</span></h1>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Section 1</a>
+        <a href="chart2.html" class="nav-link">Section 2</a>
+        <a href="chart3.html" class="nav-link active">Section 3</a>
+        <a href="aboutus.html" class="nav-link">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Fines by Region: What Can a Map Tell Us?</h2>
+    <p class="section-intro3">
+ This map visualisation uncovers the geographic footprint of speed enforcement across Australia in 2023, measured as fines per 1,000 licensed drivers.
+    What begins as a straightforward heatmap quickly reveals deeper behavioural and policy-driven contrasts between states.
+  </p>
+
+    <p>Click a state/territory to explore the spatial distribution.</p>
+
+    <div class="view-toggle">
+      <label><input type="radio" name="viewMode" value="perCapita" checked> Per 1000 Licenses</label>
+    </div>
+
+    <div id="mapchart" class="responsive-svg-container"></div>
+<div id="mapchart" class="responsive-svg-container"></div>
+
+    <div class="tooltip"></div>
+    <div class="summary-panel">
+  <h3>Key Regional Observations</h3>
+    <li>
+    <strong>Western Australia</strong> emerges as a clear outlier, with more than <strong>400 fines per 1,000 licenses</strong> — significantly above all other jurisdictions.
+    This intensity may reflect stricter local policies, a smaller licensing population, or targeted enforcement in high-risk corridors.
+    In contrast, regions like South Australia and Tasmania report much lower per-capita fines, potentially indicating different enforcement strategies or traffic conditions.
+    </li>
+  <li>
+    Eastern states such as <strong>Victoria</strong> and <strong>New South Wales</strong> show moderate yet consistent enforcement, likely driven by urban congestion,
+    dense road networks, and automated camera systems. Queensland’s decentralised road network may explain its relatively balanced fine density.
+  </li>
+      <li><strong>Queensland</strong> presents balanced enforcement, possibly due to its wide, decentralised road network.</li>
+
+  <p>
+    By mapping fines relative to driver population, rather than absolute totals, this view emphasizes <em>equity</em> and <em>enforcement efficiency</em>,
+    helping stakeholders ask: <em>Where are road rules most aggressively policed — and why?</em>
+  </p>
+  </main>
+  <div class="conclusion-box">
+  <p><strong>Conclusion</strong></p>
+  <p>
+    This spatial analysis highlights how enforcement varies not just in volume, but in its relationship to the driving population.
+    It encourages a shift in how we evaluate road safety — not merely by counting fines, but by asking how fairly and consistently they're distributed.
+  </p>
+  <p>
+    By identifying outliers and trends across states, this map provides a starting point for further investigation into policy effectiveness,
+    behavioural drivers, and infrastructure design. In doing so, it empowers policymakers, researchers, and the public to better understand
+    the regional nuances behind Australia’s speed enforcement landscape.
+  </p>
+</div>
+
+
+  <footer>
+    <div class="footer-container">
+      <p class="footer-text">
+        <span class="footer-line">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f4f8ff" viewBox="0 0 16 16">
+            <path d="M0 0h1v16H0V0zm3 5h1v11H3V5zm3 2h1v9H6V7zm3-4h1v13H9V3zm3 6h1v7h-1V9zm3-2h1v9h-1V7z"/>
+          </svg>
+          <strong>Data source</strong> — Dept. of Infrastructure (AU), 2023 · CL01_G05
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/shared-constants.js"></script>
+  <script type="module" src="js/resize.js"></script>
+  <script type="module" src="js/chart3.js"></script>
+</body>
+</html>

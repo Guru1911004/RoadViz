@@ -1,0 +1,498 @@
+AGE_GROUP,Month,Sum(FINES),Jurisdiction
+0-16,April,1,VIC
+0-16,August,1,VIC
+0-16,December,1,VIC
+0-16,February,2,VIC
+0-16,July,2,VIC
+0-16,June,4,VIC
+0-16,March,1,VIC
+0-16,November,2,VIC
+0-16,September,1,VIC
+17-25,April,6858,VIC
+17-25,August,8018,VIC
+17-25,December,9690,VIC
+17-25,February,6352,VIC
+17-25,January,7847,VIC
+17-25,July,7724,VIC
+17-25,June,7539,VIC
+17-25,March,7147,VIC
+17-25,May,6786,VIC
+17-25,November,9276,VIC
+17-25,October,7909,VIC
+17-25,September,8011,VIC
+26-39,April,24281,VIC
+26-39,August,26123,VIC
+26-39,December,29966,VIC
+26-39,February,23354,VIC
+26-39,January,28860,VIC
+26-39,July,25583,VIC
+26-39,June,25038,VIC
+26-39,March,25707,VIC
+26-39,May,23837,VIC
+26-39,November,27975,VIC
+26-39,October,25682,VIC
+26-39,September,26002,VIC
+40-64,April,38596,VIC
+40-64,August,41320,VIC
+40-64,December,45382,VIC
+40-64,February,37919,VIC
+40-64,January,46191,VIC
+40-64,July,39706,VIC
+40-64,June,38366,VIC
+40-64,March,41675,VIC
+40-64,May,38394,VIC
+40-64,November,44170,VIC
+40-64,October,40551,VIC
+40-64,September,40359,VIC
+65 and over,April,11963,VIC
+65 and over,August,11587,VIC
+65 and over,December,13518,VIC
+65 and over,February,11829,VIC
+65 and over,January,13945,VIC
+65 and over,July,11545,VIC
+65 and over,June,10819,VIC
+65 and over,March,13207,VIC
+65 and over,May,11832,VIC
+65 and over,November,13274,VIC
+65 and over,October,12566,VIC
+65 and over,September,11620,VIC
+Unknown,April,19722,VIC
+Unknown,August,21370,VIC
+Unknown,December,24264,VIC
+Unknown,February,19482,VIC
+Unknown,January,22378,VIC
+Unknown,July,20300,VIC
+Unknown,June,20545,VIC
+Unknown,March,21351,VIC
+Unknown,May,20320,VIC
+Unknown,November,24003,VIC
+Unknown,October,22256,VIC
+Unknown,September,20723,VIC
+0-16,April,1,TAS
+0-16,August,3,TAS
+0-16,December,2,TAS
+0-16,February,0,TAS
+0-16,July,1,TAS
+0-16,June,3,TAS
+0-16,March,0,TAS
+0-16,May,3,TAS
+0-16,November,1,TAS
+0-16,October,1,TAS
+0-16,September,3,TAS
+17-25,April,691,TAS
+17-25,August,768,TAS
+17-25,December,750,TAS
+17-25,February,708,TAS
+17-25,January,1024,TAS
+17-25,July,825,TAS
+17-25,June,753,TAS
+17-25,March,620,TAS
+17-25,May,751,TAS
+17-25,November,931,TAS
+17-25,October,831,TAS
+17-25,September,755,TAS
+26-39,April,1426,TAS
+26-39,August,1632,TAS
+26-39,December,1651,TAS
+26-39,February,1563,TAS
+26-39,January,2304,TAS
+26-39,July,1689,TAS
+26-39,June,1585,TAS
+26-39,March,1377,TAS
+26-39,May,1727,TAS
+26-39,November,2018,TAS
+26-39,October,1880,TAS
+26-39,September,1434,TAS
+40-64,April,1785,TAS
+40-64,August,2228,TAS
+40-64,December,2265,TAS
+40-64,February,1835,TAS
+40-64,January,2737,TAS
+40-64,July,2258,TAS
+40-64,June,2083,TAS
+40-64,March,1758,TAS
+40-64,May,2280,TAS
+40-64,November,2696,TAS
+40-64,October,2546,TAS
+40-64,September,1855,TAS
+65 and over,April,616,TAS
+65 and over,August,729,TAS
+65 and over,December,820,TAS
+65 and over,February,626,TAS
+65 and over,January,862,TAS
+65 and over,July,760,TAS
+65 and over,June,747,TAS
+65 and over,March,615,TAS
+65 and over,May,729,TAS
+65 and over,November,945,TAS
+65 and over,October,945,TAS
+65 and over,September,574,TAS
+Unknown,April,2,TAS
+Unknown,August,1,TAS
+Unknown,December,1,TAS
+Unknown,February,4,TAS
+Unknown,January,6,TAS
+Unknown,June,1,TAS
+Unknown,March,2,TAS
+Unknown,May,9,TAS
+Unknown,November,5,TAS
+Unknown,October,3,TAS
+Unknown,September,1,TAS
+0-16,April,2,WA
+0-16,August,4,WA
+0-16,December,4,WA
+0-16,January,1,WA
+0-16,July,3,WA
+0-16,June,3,WA
+0-16,May,1,WA
+0-16,November,4,WA
+0-16,October,9,WA
+0-16,September,3,WA
+17-25,April,7881,WA
+17-25,August,8860,WA
+17-25,December,7784,WA
+17-25,February,8088,WA
+17-25,January,7048,WA
+17-25,July,8248,WA
+17-25,June,6375,WA
+17-25,March,7559,WA
+17-25,May,7227,WA
+17-25,November,8108,WA
+17-25,October,9715,WA
+17-25,September,9016,WA
+26-39,April,20849,WA
+26-39,August,22491,WA
+26-39,December,20837,WA
+26-39,February,21576,WA
+26-39,January,19502,WA
+26-39,July,20743,WA
+26-39,June,16170,WA
+26-39,March,20182,WA
+26-39,May,18367,WA
+26-39,November,19942,WA
+26-39,October,23418,WA
+26-39,September,22004,WA
+40-64,April,31025,WA
+40-64,August,34704,WA
+40-64,December,31870,WA
+40-64,February,32852,WA
+40-64,January,30139,WA
+40-64,July,32735,WA
+40-64,June,24332,WA
+40-64,March,30562,WA
+40-64,May,28143,WA
+40-64,November,29767,WA
+40-64,October,34675,WA
+40-64,September,32688,WA
+65 and over,April,7351,WA
+65 and over,August,8422,WA
+65 and over,December,8417,WA
+65 and over,February,8125,WA
+65 and over,January,7448,WA
+65 and over,July,8102,WA
+65 and over,June,5815,WA
+65 and over,March,7624,WA
+65 and over,May,6876,WA
+65 and over,November,7253,WA
+65 and over,October,8372,WA
+65 and over,September,7794,WA
+Unknown,April,34,WA
+Unknown,August,24,WA
+Unknown,December,23,WA
+Unknown,February,46,WA
+Unknown,January,40,WA
+Unknown,July,28,WA
+Unknown,June,24,WA
+Unknown,March,37,WA
+Unknown,May,41,WA
+Unknown,November,29,WA
+Unknown,October,28,WA
+Unknown,September,18,WA
+0-16,April,5,NT
+0-16,August,6,NT
+0-16,December,4,NT
+0-16,February,4,NT
+0-16,January,6,NT
+0-16,July,6,NT
+0-16,June,5,NT
+0-16,March,4,NT
+0-16,May,4,NT
+0-16,November,4,NT
+0-16,October,5,NT
+0-16,September,4,NT
+17-25,April,426,NT
+17-25,August,519,NT
+17-25,December,703,NT
+17-25,February,376,NT
+17-25,January,460,NT
+17-25,July,532,NT
+17-25,June,473,NT
+17-25,March,406,NT
+17-25,May,457,NT
+17-25,November,356,NT
+17-25,October,429,NT
+17-25,September,512,NT
+26-39,April,979,NT
+26-39,August,1220,NT
+26-39,December,1900,NT
+26-39,February,988,NT
+26-39,January,997,NT
+26-39,July,1357,NT
+26-39,June,1278,NT
+26-39,March,979,NT
+26-39,May,1352,NT
+26-39,November,889,NT
+26-39,October,1104,NT
+26-39,September,1240,NT
+40-64,April,1267,NT
+40-64,August,1523,NT
+40-64,December,2334,NT
+40-64,February,1183,NT
+40-64,January,1137,NT
+40-64,July,1751,NT
+40-64,June,1549,NT
+40-64,March,1248,NT
+40-64,May,1681,NT
+40-64,November,1094,NT
+40-64,October,1348,NT
+40-64,September,1544,NT
+65 and over,April,287,NT
+65 and over,August,379,NT
+65 and over,December,520,NT
+65 and over,February,247,NT
+65 and over,January,249,NT
+65 and over,July,409,NT
+65 and over,June,434,NT
+65 and over,March,283,NT
+65 and over,May,427,NT
+65 and over,November,272,NT
+65 and over,October,306,NT
+65 and over,September,375,NT
+Unknown,April,88,NT
+Unknown,August,107,NT
+Unknown,December,210,NT
+Unknown,February,86,NT
+Unknown,January,76,NT
+Unknown,July,140,NT
+Unknown,June,122,NT
+Unknown,March,88,NT
+Unknown,May,135,NT
+Unknown,November,120,NT
+Unknown,October,133,NT
+Unknown,September,165,NT
+0-16,April,0,SA
+0-16,August,0,SA
+0-16,December,4,SA
+0-16,February,0,SA
+0-16,January,0,SA
+0-16,July,4,SA
+0-16,June,6,SA
+0-16,March,0,SA
+0-16,May,0,SA
+0-16,November,4,SA
+0-16,October,3,SA
+0-16,September,0,SA
+17-25,April,1834,SA
+17-25,August,2081,SA
+17-25,December,1678,SA
+17-25,February,1977,SA
+17-25,January,2078,SA
+17-25,July,2120,SA
+17-25,June,2165,SA
+17-25,March,2245,SA
+17-25,May,1998,SA
+17-25,November,2150,SA
+17-25,October,1947,SA
+17-25,September,2091,SA
+26-39,April,4147,SA
+26-39,August,4967,SA
+26-39,December,3745,SA
+26-39,February,4672,SA
+26-39,January,4921,SA
+26-39,July,4579,SA
+26-39,June,4708,SA
+26-39,March,5420,SA
+26-39,May,4705,SA
+26-39,November,4862,SA
+26-39,October,4799,SA
+26-39,September,4825,SA
+40-64,April,6786,SA
+40-64,August,7862,SA
+40-64,December,5977,SA
+40-64,February,7761,SA
+40-64,January,8015,SA
+40-64,July,7147,SA
+40-64,June,7738,SA
+40-64,March,8606,SA
+40-64,May,7709,SA
+40-64,November,7865,SA
+40-64,October,7173,SA
+40-64,September,7398,SA
+65 and over,April,2210,SA
+65 and over,August,2363,SA
+65 and over,December,2008,SA
+65 and over,February,2310,SA
+65 and over,January,2661,SA
+65 and over,July,2079,SA
+65 and over,June,2288,SA
+65 and over,March,2669,SA
+65 and over,May,2381,SA
+65 and over,November,2614,SA
+65 and over,October,2458,SA
+65 and over,September,2339,SA
+Unknown,April,333,SA
+Unknown,August,371,SA
+Unknown,December,285,SA
+Unknown,February,417,SA
+Unknown,January,391,SA
+Unknown,July,296,SA
+Unknown,June,367,SA
+Unknown,March,498,SA
+Unknown,May,386,SA
+Unknown,November,380,SA
+Unknown,October,385,SA
+Unknown,September,341,SA
+0-16,April,21,NSW
+0-16,August,11,NSW
+0-16,December,14,NSW
+0-16,February,5,NSW
+0-16,January,10,NSW
+0-16,July,10,NSW
+0-16,June,7,NSW
+0-16,March,8,NSW
+0-16,May,12,NSW
+0-16,November,9,NSW
+0-16,October,14,NSW
+0-16,September,6,NSW
+17-25,April,3888,NSW
+17-25,August,3627,NSW
+17-25,December,4540,NSW
+17-25,February,2923,NSW
+17-25,January,3588,NSW
+17-25,July,3302,NSW
+17-25,June,4399,NSW
+17-25,March,3307,NSW
+17-25,May,3183,NSW
+17-25,November,3406,NSW
+17-25,October,3660,NSW
+17-25,September,3957,NSW
+26-39,April,5387,NSW
+26-39,August,4958,NSW
+26-39,December,6234,NSW
+26-39,February,4176,NSW
+26-39,January,5200,NSW
+26-39,July,4512,NSW
+26-39,June,6108,NSW
+26-39,March,4551,NSW
+26-39,May,4371,NSW
+26-39,November,4435,NSW
+26-39,October,4969,NSW
+26-39,September,5379,NSW
+40-64,April,5193,NSW
+40-64,August,4908,NSW
+40-64,December,6020,NSW
+40-64,February,4263,NSW
+40-64,January,5052,NSW
+40-64,July,4339,NSW
+40-64,June,5841,NSW
+40-64,March,4644,NSW
+40-64,May,4489,NSW
+40-64,November,4444,NSW
+40-64,October,5032,NSW
+40-64,September,5201,NSW
+65 and over,April,979,NSW
+65 and over,August,1034,NSW
+65 and over,December,1236,NSW
+65 and over,February,877,NSW
+65 and over,January,981,NSW
+65 and over,July,788,NSW
+65 and over,June,1179,NSW
+65 and over,March,984,NSW
+65 and over,May,963,NSW
+65 and over,November,924,NSW
+65 and over,October,1048,NSW
+65 and over,September,1043,NSW
+Unknown,April,49545,NSW
+Unknown,August,62706,NSW
+Unknown,December,66180,NSW
+Unknown,February,52680,NSW
+Unknown,January,48074,NSW
+Unknown,July,54556,NSW
+Unknown,June,54545,NSW
+Unknown,March,67669,NSW
+Unknown,May,60737,NSW
+Unknown,November,67571,NSW
+Unknown,October,61031,NSW
+Unknown,September,60540,NSW
+0-16,April,4,ACT
+0-16,August,7,ACT
+0-16,December,7,ACT
+0-16,February,2,ACT
+0-16,January,3,ACT
+0-16,July,4,ACT
+0-16,June,3,ACT
+0-16,March,9,ACT
+0-16,May,5,ACT
+0-16,November,4,ACT
+0-16,October,4,ACT
+0-16,September,6,ACT
+17-25,April,838,ACT
+17-25,August,728,ACT
+17-25,December,763,ACT
+17-25,February,755,ACT
+17-25,January,761,ACT
+17-25,July,694,ACT
+17-25,June,670,ACT
+17-25,March,812,ACT
+17-25,May,743,ACT
+17-25,November,751,ACT
+17-25,October,753,ACT
+17-25,September,739,ACT
+26-39,April,1738,ACT
+26-39,August,1460,ACT
+26-39,December,1741,ACT
+26-39,February,1664,ACT
+26-39,January,1961,ACT
+26-39,July,1636,ACT
+26-39,June,1559,ACT
+26-39,March,1759,ACT
+26-39,May,1600,ACT
+26-39,November,1575,ACT
+26-39,October,1666,ACT
+26-39,September,1591,ACT
+40-64,April,2888,ACT
+40-64,August,2191,ACT
+40-64,December,2722,ACT
+40-64,February,2730,ACT
+40-64,January,3245,ACT
+40-64,July,2516,ACT
+40-64,June,2410,ACT
+40-64,March,2897,ACT
+40-64,May,2691,ACT
+40-64,November,2534,ACT
+40-64,October,2471,ACT
+40-64,September,2541,ACT
+65 and over,April,867,ACT
+65 and over,August,675,ACT
+65 and over,December,787,ACT
+65 and over,February,982,ACT
+65 and over,January,989,ACT
+65 and over,July,655,ACT
+65 and over,June,734,ACT
+65 and over,March,941,ACT
+65 and over,May,858,ACT
+65 and over,November,787,ACT
+65 and over,October,859,ACT
+65 and over,September,791,ACT
+Unknown,April,78,ACT
+Unknown,August,90,ACT
+Unknown,December,121,ACT
+Unknown,February,104,ACT
+Unknown,January,104,ACT
+Unknown,July,100,ACT
+Unknown,June,93,ACT
+Unknown,March,91,ACT
+Unknown,May,94,ACT
+Unknown,November,111,ACT
+Unknown,October,98,ACT
+Unknown,September,101,ACT

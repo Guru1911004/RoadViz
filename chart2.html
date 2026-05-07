@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detection Trends · Speed Dashboard</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/visualisations.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="branding">
+        <img src="Logo/logo.png" alt="SafeStates Logo" class="logo">
+        <h1 class="site-title">Visualizing Speed Enforcement Patterns<br><span class="subtitle">Across Australian Jurisdictions</span></h1>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Section 1</a>
+        <a href="chart2.html" class="nav-link active">Section 2</a>
+        <a href="chart3.html" class="nav-link">Section 3</a>
+        <a href="aboutus.html" class="nav-link">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="section-header">
+      <h2>Detection-method Trends (2017–2023)</h2>
+      <div class="dropdown-container">
+        <label for="state-filter">State:</label>
+        <select id="state-filter"></select>
+      </div>
+    </div>
+
+    <p class="story">
+      Which enforcement methods are gaining ground — and which are fading? From 2017 to 2023, the methods used to detect speeding violations across Australian jurisdictions have evolved significantly. However, recent years show a decline in their usage, with a noticeable rise in mobile camera enforcement and a slight increase in police-issued fines.
+    </p>
+    <p>Select a state to uncover unique trends and explore how detection methods have changed over time:</p>
+    <h3 id="state-header" style="margin-bottom: 1rem; color: #374151;">Showing trends for: <span id="state-name">VIC</span></h3>
+
+    <div id="method-insight" class="insight-box2">Loading insight...</div>
+
+    <div id="stackedArea" class="responsive-svg-container"></div>
+    <div class="tooltip"></div>
+  </main>
+  <div id="section-conclusion" class="conclusion-box"></div>
+</main>
+<p class="closing-note">
+  <strong>Curious how these patterns evolve year to year? Stay tuned for more visual insights as we track enforcement trends into the future.</strong>
+</p>
+
+  <footer>
+    <div class="footer-container">
+      <p class="footer-text">
+        <span class="footer-line">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f4f8ff" viewBox="0 0 16 16">
+            <path d="M0 0h1v16H0V0zm3 5h1v11H3V5zm3 2h1v9H6V7zm3-4h1v13H9V3zm3 6h1v7h-1V9zm3-2h1v9h-1V7z"/>
+          </svg>
+          <strong>Data source</strong> — Dept. of Infrastructure (AU), 2023 · CL01_G05
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/shared-constants.js"></script>
+  <script type="module" src="js/resize.js"></script>
+  <script type="module" src="js/chart2.js"></script>
+  <script type="module" src="js/interactions.js"></script>
+  <script type="module" src="js/load-data.js"></script>
+<script>
+  const conclusionBox = document.getElementById("section-conclusion");
+conclusionBox.innerHTML = `
+  <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="220" height="28" fill="#1d4ed8" viewBox="0 0 24 24">
+      <path d="M12 2a10 10 0 1 0 0 20h1v-2h-1a8 8 0 1 1 0-16c4.41 0 8 3.59 8 8 0 3.04-1.69 5.64-4.17 7h-1.83v2h4a1 1 0 0 0 .9-1.45l-2.5-5A8.01 8.01 0 0 0 12 2zm-1 7h2v5h-2V9zm0 6h2v2h-2v-2z"/>
+    </svg>
+    <div>
+This visual journey through Australia’s speeding detection landscape reveals far more than counts and categories — it uncovers a national shift in strategy, transparency. From 2017 to 2022, many jurisdictions grouped camera-based fines under the vague category <em>“Fixed or Mobile Camera”</em> due to limitations in how detection types were recorded. But in 2023, that changed. Jurisdictions began disaggregating this category, distinguishing between <em>fixed</em>, <em>mobile</em>, <em>red light</em>, and <em>average speed</em> cameras.<br><br>
+    This shift wasn’t just bureaucratic — it signaled a move toward <strong>clearer, more accountable enforcement</strong> and <strong>higher-resolution insights</strong> for the public. Through thoughtful data design and storytelling, this dashboard translates raw numbers into meaningful patterns, guiding users through a decade of evolving road safety enforcement. It's a narrative of smarter technology, smarter enforcement — and smarter communication.
+    </div>
+  </div>
+`;
+
+</script>
+
+</body>
+</html>

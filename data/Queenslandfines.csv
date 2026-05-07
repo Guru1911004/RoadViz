@@ -1,0 +1,5 @@
+"YEAR","START_DATE","END_DATE","JURISDICTION","LOCATION","AGE_GROUP","METRIC","DETECTION_METHOD","FINES","ARRESTS","CHARGES"
+2023,"2023-01-01","2023-12-31","QLD","Unknown","Unknown","speed_fines","Average speed camera",9790,,
+2023,"2023-01-01","2023-12-31","QLD","Unknown","Unknown","speed_fines","Fixed camera",263939,,
+2023,"2023-01-01","2023-12-31","QLD","Unknown","Unknown","speed_fines","Mobile camera",469785,,
+2023,"2023-01-01","2023-12-31","QLD","Unknown","Unknown","speed_fines","Police issued",117112,,
